@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Online CV</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+        <link href="">
+    </head>
+    <body>
+        <form action="{{ url_for('CV') }}" method="POST" id="form">
+            <div class="form">
+                <h1> Crea tu CV online </h1>
+            
+                <div class="grupo">
+                    <textarea name="name" rows="10" cols="40" placeholder="Escribe aquí tu resumen"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name1" rows="10" cols="40" placeholder="Escribe aquí tus datos personales"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name2" rows="10" cols="40" placeholder="Escribe aquí tu experiencia Laboral"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name3" rows="10" cols="40" placeholder="Escribe aquí tus estudios"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name4" rows="10" cols="40" placeholder="Escribe aquí tus logros"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name5" rows="10" cols="40" placeholder="Escribe aquí tus habilidades"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name6" rows="10" cols="40" placeholder="Escribe aquí tus intereses"></textarea>
+                </div>
+                <div class="grupo">
+                    <textarea name="name7" rows="10" cols="40" placeholder="Escribe aquí tus referencias"></textarea>
+                </div>
+                <button type="submit"> Registrar CV </button>
+            </div>
+        </form>
+    </body>

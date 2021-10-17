@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(R2-D2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+h1{
+    font-family: 'Helvetica';
+    text-align:  center;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family:'Calibri';
+    text-align: left;
+    white-space: pre-line;
+    background: #ffffff;
+
+}
+p{
+    background: #ffffff;
+}
+label{
+    font-family: 'Helvetica';
+}
